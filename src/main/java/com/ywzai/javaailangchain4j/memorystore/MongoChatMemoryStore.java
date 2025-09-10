@@ -1,4 +1,4 @@
-package com.ywzai.javaailangchain4j;
+package com.ywzai.javaailangchain4j.memorystore;
 
 import com.ywzai.javaailangchain4j.bean.ChatMessages;
 import dev.langchain4j.data.message.ChatMessage;
@@ -12,7 +12,6 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

@@ -1,8 +1,7 @@
 package com.ywzai.javaailangchain4j.config;
 
-import com.ywzai.javaailangchain4j.MongoChatMemoryStore;
+import com.ywzai.javaailangchain4j.memorystore.MongoChatMemoryStore;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
-import dev.langchain4j.store.memory.chat.InMemoryChatMemoryStore;
 import jakarta.annotation.Resource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

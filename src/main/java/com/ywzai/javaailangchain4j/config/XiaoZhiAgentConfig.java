@@ -1,7 +1,6 @@
 package com.ywzai.javaailangchain4j.config;
 
-import com.ywzai.javaailangchain4j.Assistant.XiaoZhiAgent;
-import com.ywzai.javaailangchain4j.MongoChatMemoryStore;
+import com.ywzai.javaailangchain4j.memorystore.MongoChatMemoryStore;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import jakarta.annotation.Resource;
