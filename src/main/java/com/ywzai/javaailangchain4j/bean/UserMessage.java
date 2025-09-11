@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 public class UserMessage {
 
     private Long memoryId;
-    private String content;
+    private String message;
 }
