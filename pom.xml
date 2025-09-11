@@ -103,11 +103,14 @@
         <!--mybatis-plus 持久层-->
         <dependency>
             <groupId>com.baomidou</groupId>
-
             <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
-
             <version>${mybatis-plus.version}</version>
+        </dependency>
 
+        <!--简单的rag实现-->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-easy-rag</artifactId>
         </dependency>
     </dependencies>
 

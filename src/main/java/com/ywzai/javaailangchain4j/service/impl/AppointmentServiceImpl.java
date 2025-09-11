@@ -9,6 +9,12 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AppointmentServiceImpl extends ServiceImpl<AppointmentMapper,Appointment> implements AppointmentService  {
+
+    /**
+     * 根据用户信息查询预约信息
+     * @param appointment
+     * @return 如果存在则返回预约信息，否则返回null
+     */
     @Override
     public Appointment getOne(Appointment appointment) {
         LambdaQueryWrapper<Appointment> queryWrapper = new LambdaQueryWrapper<>();
